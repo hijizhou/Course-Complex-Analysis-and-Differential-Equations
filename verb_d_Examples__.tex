@@ -1,1 +1,11 @@
-\verb|(d) Examples|
+\verb|(d) Determine the analytic function|
+\\
+Given $u(x,y)$ that satisfies Laplace's equation in some domain, how to find $v(x,y)$ such that $f(z) = u(x,y) + iv(x,y)$ is analytic in the same domain?
+
+\begin{quote}
+\begin{enumerate}
+\item Check whether the provided $u(x,y)$ satisfies the Laplace's equation, i.e. $u_{xx}+u_{yy}=0$.
+\item build $g(z) = u_x(x,y) - iu_y(x,y)$, then $f'(z) = g(z)$.
+\item integration to determine $f(z)$, then the imaginary part provides $v(x,y)$.
+\end{enumerate}
+\end{quote}
