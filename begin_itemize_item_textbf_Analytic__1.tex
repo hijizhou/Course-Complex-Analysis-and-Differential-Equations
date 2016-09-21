@@ -1,11 +1,10 @@
 \begin{itemize}
 \item \textbf{Analytic continuation}: It is a technique to extend the domain of a given analytic function. A subtle consequence of analyticity is that it suffices to know an analytic function within an interval on the real or on the imaginary axis, in order to know it over the whole analyticity domain that contains the interval: see picture below. The principle that allows to extrapolate an analytic function from an interval to a full domain is called "Analytic Continuation", and the precise result is even much more general (not limited to intervals) than what I state here.
 
-
-A nice implication of analytic continuation is that it provides a direct, simple way to find the expression of an analytic function as a function of $$z=x+iy$$. How to do this? Solution: given the real part, $$u(x,y)$$, and the imaginary part, $$v(x,y)$$, of the analytic function $$f(x+iy)$$
-Keep only one variable, e.g., $$x$$, and set $$y=0$$, which provides $$f(x)=u(x,0)+iv(x,0)$$.
-Substitute $$z=x+iy$$ to $$x$$ in this equation, which leads to $$f(z)=u(z,0)+iv(z,0)$$.
-Example: assume that we are given the function $$f(x,y)$$ with
+A nice implication of analytic continuation is that it provides a direct, simple way to find the expression of an analytic function as a function of $z=x+iy$. How to do this? Solution: given the real part, $u(x,y)$, and the imaginary part, $v(x,y)$, of the analytic function $f(x+iy)$
+Keep only one variable, e.g., $x$, and set $y=0$, which provides $f(x)=u(x,0)+iv(x,0)$.
+Substitute $z=x+iy$ to $x$ in this equation, which leads to $f(z)=u(z,0)+iv(z,0)$.
+Example: assume that we are given the function $f(x,y)$ with
 $$\displaystyle u(x,y)=\frac{y}{x^2+y^2}\mbox{ and }v(x,y)=\frac{x}{x^2+y^2}.$$
-This function can be shown to be analytic in $${\mathbb C}\setminus\{0\}$$ using Cauchy-Riemann conditions (do it!). Then we have $$u(x,0)=0$$ and $$v(x,0)=1/x$$. Hence $$f(x)=i/x$$, hence $$f(z)=i/z$$.
+This function can be shown to be analytic in ${\mathbb C}\setminus\{0\}$ using Cauchy-Riemann conditions . Then we have $u(x,0)=0$ and $v(x,0)=1/x$. Hence $f(x)=i/x$, hence $f(z)=i/z$.
 \end{itemize}
