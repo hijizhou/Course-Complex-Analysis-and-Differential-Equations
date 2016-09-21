@@ -1,7 +1,7 @@
 untitled.tex
 subsection_Complex_numbers_subsubsection_Analytic__.tex
 subsection_Complex_functions_subsubsection_Analytic__.tex
-dddd__.tex
 figures/screenshot/screenshot.png
+dddd__.tex
 subsection_Complex_integrals__.tex
 subsection_Series__.tex
