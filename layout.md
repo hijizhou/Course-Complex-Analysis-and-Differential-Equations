@@ -1,5 +1,5 @@
 untitled.tex
-subsection_Complex_numbers_subsubsection_Analytic__.tex
+subsection_Complex_numbers_begin_itemize__.tex
 subsection_Complex_functions_subsubsection_Analytic__.tex
 figures/screenshot/screenshot.png
 begin_itemize_item_textbf_Analytic__.tex
