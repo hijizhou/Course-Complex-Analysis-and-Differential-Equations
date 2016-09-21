@@ -2,3 +2,4 @@ untitled.tex
 subsection_Complex_numbers__.tex
 subsection_Complex_functions__.tex
 subsection_Complex_integrals__.tex
+subsection_Series__.tex
