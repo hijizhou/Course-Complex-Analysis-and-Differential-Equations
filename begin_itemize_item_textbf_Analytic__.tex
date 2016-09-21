@@ -4,3 +4,28 @@
 A function $f(z)$ is said to be analytic \verb|at a point $z$| if $z$ is an \verb|interior point| of some region where $f(z)$ is analytic.
 \end{quote}
 \end{itemize}
+\verb|(b) Evaluation of Analytic functions|
+\begin{itemize}
+\item \verb|Cauchy-Riemann equation| (necessary condition): If $f(z) = u(x,y) + iv(x,y)$ is analytic in some domain, then 
+$$
+u_x = v_y\ \mathrm{and}\ u_y = -v_x
+$$ in that domain. 
+\item \verb|Necessary and sufficient conditions|: Provided that all these partial derivatives are \verb|continuous in the domain| and satisfy the C-R equation.
+\item \verb|Harmonic functions|: If $f(z)$ is analytic in some domain, then in that domain
+$$
+\nabla^2u = 0\ \mathrm{and}\ \nabla^2v = 0.
+$$ where
+$$
+\nabla^2 g(x,y) = \frac{\partial^2 g}{\partial x^2} + \frac{\partial^2 g}{\partial y^2}.
+$$ Contrariwise, if either $\mathrm{Re}\{f(z)\}$ or $\mathrm{Im}\{f(z)\}$ does not satisfy Laplace's equation, then $f(z)$ is not analytic.
+\end{itemize}
+\verb|(c) Properties|
+\begin{itemize}
+\item \textbf{Connection with continuous}: If $f(z)$ is analytic at a point $z$, then the derivative $f'(z)$ is \verb|continuous| at $z$; and further it has continuous derivatives of \verb|all order| at the point $z$.
+\item \textbf{Singular points}: Points at which a function $f(z)$ is \textbf{not analytic} are called singular points. There are three different types of singular points:
+\begin{enumerate}
+\item \textit{Removable singularities}: $f$ is defined in a neighborhood of the point $z$, but not at $z$, but $f$ can be defined at $z$ so that $f$ is a continuous function which includes $z$. Example: $f(z) = z, z\in \mathcal{C}\\{zero\}$. That means $z=0$ is a removable singularity; $f(z) = \mathrm{sin} z/z$
+\item \textit{Pole}: $f$ blows up at $z$ ($f$ goes to infinity as approaching $z$). Example: $z=0$ for $f(z) = 1/z$.
+\item \textit{Essential singularity}: The limit as $f$ approaches $z$ takes on different values as approaching $z$ from different directions. 
+\end{enumerate}
+\end{itemize}
