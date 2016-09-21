@@ -5,6 +5,6 @@ figures/screenshot/screenshot.png
 begin_itemize_item_textbf_Analytic__.tex
 figures/screenshot1/screenshot1.png
 figures/screenshot 2/screenshot 2.png
-verb_d_Examples__.tex
+verb_d_Determine_the_analytic__.tex
 subsection_Complex_integrals__.tex
 subsection_Series__.tex
