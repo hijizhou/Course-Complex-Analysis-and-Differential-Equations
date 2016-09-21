@@ -12,5 +12,6 @@ verb_d_Determine_the_analytic__.tex
 verb_e_Examples__.tex
 figures/screenshot2/screenshot2.png
 figures/screenshot3/screenshot3.png
+subsubsection_Special_functions_begin_itemize__.tex
 subsection_Complex_integrals__.tex
 subsection_Series__.tex
